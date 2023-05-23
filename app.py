@@ -9,3 +9,10 @@ def test():
 @app.route('/testing')
 def testing():
     return "testing"
+
+@app.route('test2')
+def test2():
+    return "test2"
+
+if __name__ == '__main__':
+    app.run()
